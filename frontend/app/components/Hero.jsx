@@ -36,7 +36,7 @@ const Hero = () => {
                 <div>
                     <Image
                         className='rounded-xl px-4'
-                        src="/team.png"
+                        src="/Team.png"
                         width={640}
                         height={610}
                         alt="Team Image"
@@ -46,7 +46,7 @@ const Hero = () => {
                 <div>
                     <Image
                         className='rounded-xl px-4'
-                        src="/team.png"
+                        src="/Team.png"
                         width={640}
                         height={610}
                         alt="Research Image"

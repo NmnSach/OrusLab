@@ -1,4 +1,6 @@
 import React from 'react'
+import Link from 'next/link'
+
 
 const Nav = () => {
     return (
@@ -9,10 +11,10 @@ const Nav = () => {
             </div>
 
             <div className='mr-10'>
-                <span className='mx-3 text-md cursor-pointer'>About</span>
-                <span className='mx-3 text-md cursor-pointer'>People</span>
-                <span className='mx-3 text-md cursor-pointer'>Academic Work</span>
-                <span className='bg-black text-white rounded-lg hover:bg-white hover:text-black p-2 border-2 border-black mx-3 cursor-pointer'>Contact</span>
+                <Link href="/about"><span className='mx-3 text-md cursor-pointer'>About</span></Link>
+                <Link href="/people"><span className='mx-3 text-md cursor-pointer'>People</span></Link>
+                <Link href="/research"><span className='mx-3 text-md cursor-pointer'>Academic Work</span></Link>
+                <Link href="/contactus"><span className='bg-black text-white rounded-lg hover:bg-white hover:text-black p-2 border-2 border-black mx-3 cursor-pointer'>Contact</span></Link>
             </div>
 
         </div>

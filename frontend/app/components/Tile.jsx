@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Tile = ({ imagepath, title, description, link }) => {
     return (
-        <div className='py-[32px] px-[18px] mx-5 border-transparent shadow-xl' style={{ width: '500px', height: '500px' }}>
+        <div className='p-2 mx-2 border-transparent shadow-sm shadow-gray-400 rounded-lg w-[350px] h-[440px] sm:w-[500px] sm:h-[470px] my-4' >
             <Image
                 className='rounded-xl'
                 src={imagepath}
@@ -13,9 +13,11 @@ const Tile = ({ imagepath, title, description, link }) => {
                 alt="Team Image"
                 style={{ objectFit: 'cover', width: '100%', height: '250px' }}
             />
-            <h1 className='font-bold lg:text-2xl md:text-xl sm:text-md mt-4'>{title}</h1>
-            <p className='lg:text-lg md:text-md sm:text-sm text-[#828282] overflow-hidden text-ellipsis mt-4' style={{ height: '100px' }}>{description}</p>
-            {link && <Link className='underline mt-4' href={link}>Know More</Link>}
+            <h1 className='font-bold mt-4'>{title}</h1>
+            <p className='text-[#828282] text-sm sm:text-md overflow-hidden text-ellipsis mt-4 mb-3'>{description}</p>
+
+            {link && <Link className='underline hover:border-b-2 hover:border-yellow-400 hover:no-underline hover:font-semibold' href={link}>Know More</Link>}
+
         </div>
     )
 }

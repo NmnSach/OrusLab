@@ -8,34 +8,34 @@ const Hero = () => {
             <div className='relative flex justify-center items-center'>
                 <Image
                     className='mt-10 rounded-xl '
-                    src="/monkey.png"
+                    src="/deer3.jpg"
                     width={1200}
                     height={700}
                     alt="Hero Image"
                 />
 
-                {/* <h1 className='absolute right-0 lg:mr-20 md:mr-16 mb-16 text-right text-white sm:text-3xl md:text-5xl lg:text-6xl' style={{ top: '50%' }} >
+                <h1 className='absolute bottom-0 right-0 lg:mr-20 md:mr-16 mb-16 text-right text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)] sm:text-3xl md:text-5xl lg:text-6xl' >
                     Observing Wildlife,<br /> Understanding Roles.
-                </h1> */}
+                </h1>
 
             </div>
 
             <div className='lg:m-20 md:m-10 sm:m-6'>
 
-                <h1 className='lg:text-4xl md:text-3xl sm:text-xl text-black font-semibold'>About the Lab</h1>
-                <p className='text-[#828282] lg:text-xl md:text-lg sm:text-md mt-6'>Our lab focuses on the conservation and population ecology of mammals and birds, specializing in the study of ungulates in central Indian landscapes, medium and high-altitude areas, as well as other large herbivores.
+                <h1 className='lg:text-4xl p-3 md:text-3xl sm:text-xl text-black font-bold border-b-2 border-yellow-400 w-72 '>About the Lab</h1>
+                <p className='text-[#828282] p-3 lg:text-xl md:text-lg sm:text-md mt-6'>Our lab focuses on the conservation and population ecology of mammals and birds, specializing in the study of ungulates in central Indian landscapes, medium and high-altitude areas, as well as other large herbivores.
                     We are dedicated to understanding the complex interactions between wildlife and human communities, exploring the socio-economic dynamics that impact conservation efforts. Microhistology plays a key role in our research, providing detailed insights into the dietary patterns and ecological interactions of various species.
                 </p>
 
-                <p className='text-[#828282] lg:text-xl md:text-lg sm:text-md mt-6'>In addition to our work with large herbivores, we study avian ecology and behavior, investigating the intricate dynamics of bird populations and their environments. Our lab fosters a collaborative and inclusive research environment, encouraging innovative and diverse ecological studies.
+                <p className='text-[#828282] p-3 lg:text-xl md:text-lg sm:text-md mt-6'>In addition to our work with large herbivores, we study avian ecology and behavior, investigating the intricate dynamics of bird populations and their environments. Our lab fosters a collaborative and inclusive research environment, encouraging innovative and diverse ecological studies.
                 </p>
 
             </div>
 
-            <div className='flex justify-center items-center lg:mx-20 md:mx-10 sm:mx-6'>
+            {/* <div className='flex flex-col p-10  sm:p-2 justify-center items-center lg:mx-10 md:mx-8 sm:mx-6'>
                 <div>
                     <Image
-                        className='rounded-xl px-4'
+                        className='rounded-xl px-4 my-2 sm:my-0'
                         src="/Team.png"
                         width={640}
                         height={610}
@@ -45,7 +45,7 @@ const Hero = () => {
 
                 <div>
                     <Image
-                        className='rounded-xl px-4'
+                        className='rounded-xl px-4 my-2 sm:my-0'
                         src="/Team.png"
                         width={640}
                         height={610}
@@ -53,13 +53,13 @@ const Hero = () => {
                     />
                 </div>
 
-            </div>
+            </div> */}
 
-            <div className='flex justify-center items-center lg:m-20 md:m-10 sm:m-6'>
-                <h1 className='lg:text-4xl md:text-3xl sm:text-xl text-black font-semibold underline'>Research Areas</h1>
-            </div>
 
-            <div className='flex justify-center items-center lg:mx-20 md:mx-10 sm:mx-6'>
+            <h1 className='mx-20 w-72 my-10 lg:text-4xl md:text-3xl sm:text-xl text-black font-bold border-b-2 border-yellow-400'>Research Areas</h1>
+
+
+            <div className='flex flex-col lg:flex-row justify-center items-center mx-20'>
 
 
                 <Tile
@@ -75,10 +75,6 @@ const Hero = () => {
                     description="Studying how different species share and compete for habitat resources to understand ecosystem dynamics."
                     link="/habitatEcology"
                 />
-            </div>
-
-            <div className='flex justify-center items-center lg:mx-20 md:mx-10 sm:mx-6 mt-10'>
-
 
                 <Tile
                     imagepath="/bird.png"
@@ -93,7 +89,10 @@ const Hero = () => {
                     description="Examining the impact of human activities on wildlife and developing strategies to promote coexistence and conservation."
                     link="/humanAspect"
                 />
+
             </div>
+
+
         </>
     )
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import { CiLinkedin, CiInstagram, CiFacebook, CiYoutube } from "react-icons/ci";
+import { FaGoogleScholar } from "react-icons/fa6";
 import Link from 'next/link';
 
 
@@ -13,7 +14,7 @@ const Footer = () => {
                     <CiLinkedin className='text-3xl mx-1 hover:font-bold' />
                     <CiInstagram className='text-3xl mx-1 hover:font-bold' />
                     <CiFacebook className='text-3xl mx-1 hover:font-bold' />
-                    <CiYoutube className='text-3xl mx-1 hover:font-bold' />
+                    <FaGoogleScholar className='text-3xl mx-1 hover:font-bold' />
                 </div>
             </div>
             <div className="flex flex-col">

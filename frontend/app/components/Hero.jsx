@@ -5,19 +5,21 @@ import Tile from './Tile'
 const Hero = () => {
     return (
         <>
-            <div className='mx-10 sm:mx-20 relative flex justify-center items-center'>
-                <Image
-                    className='mt-10 rounded-xl'
-                    src="/deer3.jpg"
-                    width={1200}
-                    height={700}
-                    alt="Hero Image"
-                />
+            <div className='mx-10 sm:mx-20  flex justify-center items-center'>
+                <div className='relative'>
+                    <Image
+                        className='mt-10 rounded-xl'
+                        src="/deer3.jpg"
+                        width={1200}
+                        height={700}
+                        alt="Hero Image"
+                    />
 
-                <div className='absolute inset-0 flex items-end justify-end p-5'>
-                    <h1 className='text-lg font-bold sm:text-6xl text-right text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]'>
-                        Observing Wildlife,<br /> Understanding Roles
-                    </h1>
+                    <div className='absolute inset-0 flex items-end justify-end p-5'>
+                        <h1 className='text-lg font-bold sm:text-6xl text-right text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]'>
+                            Observing Wildlife,<br /> Understanding Roles
+                        </h1>
+                    </div>
                 </div>
             </div>
 

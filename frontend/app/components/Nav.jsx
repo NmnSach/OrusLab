@@ -10,7 +10,7 @@ const Nav = () => {
     return (
         <div className='flex justify-between items-center border-b-[1px] border-gray-200 py-4 shadow-md'>
             <div className='ml-10 font-bold text-xl sm:text-2xl cursor-pointer'>
-                Orus Ilyas Lab
+                <Link href="/">Orus Ilyas Lab</Link>
             </div>
 
             <div className='hidden sm:flex mr-10'>

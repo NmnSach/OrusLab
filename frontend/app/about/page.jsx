@@ -27,7 +27,7 @@ const About = () => {
                     </p>
 
                     <p className='text-[#828282] my-2 text-sm sm:text-lg w-full'>
-                        I have served as the "Asia Coordinator" of the Deer Specialist Group of SSC/IUCN.
+                        I have served as the &quot;Asia Coordinator&quot; of the Deer Specialist Group of SSC/IUCN.
                         I have also authored four books, including one published by Routledge-Taylor and Francis.
                         My research interests include Mammalian Ecology, biodiversity conservation, conservation
                         genetics, population ecology, herbivore ecology, wildlife policy, quantitative ecology,

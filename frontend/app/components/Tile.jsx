@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Tile = ({ imagepath, title, description, link }) => {
     return (
-        <div className='p-2 mx-2 border-transparent shadow-sm shadow-gray-400 rounded-lg w-[350px] h-[440px] sm:w-[500px] sm:h-[470px] my-4' >
+        <div className='p-2 mx-2 border-transparent shadow-sm shadow-gray-400 rounded-lg w-[350px] h-[440px] sm:w-[500px] sm:h-[470px] my-4 hover:shadow-sm hover:shadow-black' >
             <Image
                 className='rounded-xl'
                 src={imagepath}

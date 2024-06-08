@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaLinkedin, FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaLinkedin, FaTwitter, FaInstagram, FaFacebook } from "react-icons/fa";
 import { FaGoogleScholar } from "react-icons/fa6";
 import Link from 'next/link';
 
@@ -9,13 +9,14 @@ const Footer = () => {
         <div className="flex flex-col sm:flex-row justify-between p-5 border-t-2 mx-2 mt-10">
             <div className="flex flex-col">
                 <div className="font-bold text-2xl">Orus Ilyas Lab</div>
-                <p className='text-sm'>placeholderemail@gmail.com</p>
+                <p className='text-sm'>o.ilyas.wl@amu.ac.in</p>
                 <div className="mt-5 flex">
                     {/* Add your social media icons here */}
-                    <FaLinkedin className='text-2xl hover:text-yellow-400 mr-2 hover:font-bold' />
-                    <FaInstagram className='text-2xl hover:text-yellow-400 mr-2 hover:font-bold' />
-                    <FaFacebook className='text-2xl hover:text-yellow-400 mr-2 hover:font-bold' />
-                    <FaGoogleScholar className='text-2xl hover:text-yellow-400 mr-2 hover:font-bold' />
+                    <a href="https://www.linkedin.com/in/dr-orus-ilyas-21768816/"><FaLinkedin className='text-2xl hover:text-yellow-400 mr-2 hover:font-bold' /></a>
+                    <a href="https://www.instagram.com/orus.ilyas/"><FaInstagram className='text-2xl hover:text-yellow-400 mr-2 hover:font-bold' /></a>
+                    <a href="https://www.facebook.com/orus.ilyas"><FaFacebook className='text-2xl hover:text-yellow-400 mr-2 hover:font-bold' /></a>
+                    <a href="https://x.com/orus16"><FaTwitter className='text-2xl hover:text-yellow-400 mr-2 hover:font-bold' /></a>
+                    <a href="https://scholar.google.co.in/citations?user=-TgyZzsAAAAJ&hl=en"><FaGoogleScholar className='text-2xl hover:text-yellow-400 mr-2 hover:font-bold' /></a>
                 </div>
             </div>
             <div className="flex">

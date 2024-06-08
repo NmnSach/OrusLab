@@ -66,18 +66,18 @@ const Hero = () => {
 
 
                 <Tile
-                    imagepath="/peacock.jpg"
+                    imagepath="/cheetah.jpg"
                     title="Status and Conservation of Mammals"
                     description="Researching the population trends and conservation strategies for mammal species to ensure their survival."
                     link="/conservation"
                 />
 
-                <Tile
+                {/* <Tile
                     imagepath="/spider.jpg"
                     title="Habitat Ecology and Niche Overlap"
                     description="Studying how different species share and compete for habitat resources to understand ecosystem dynamics."
                     link="/habitatEcology"
-                />
+                /> */}
 
                 <Tile
                     imagepath="/bird-1.jpg"

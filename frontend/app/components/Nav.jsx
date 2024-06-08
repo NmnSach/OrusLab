@@ -9,14 +9,14 @@ const Nav = () => {
 
     return (
         <div className='flex justify-between items-center border-b-[1px] border-gray-200 py-4 shadow-md'>
-            <div className='ml-10 font-bold text-xl sm:text-2xl cursor-pointer'>
+            <div className='ml-4 sm:ml-10 font-bold text-xl sm:text-2xl cursor-pointer'>
                 <Link href="/">Orus Ilyas Lab</Link>
             </div>
 
             <div className='hidden sm:flex mr-10'>
                 <Link href="/about"><span className='mx-3 text-sm sm:text-md cursor-pointer hover:border-yellow-400 hover:no-underline hover:font-semibold hover:border-b-2'>About</span></Link>
                 <Link href="/people"><span className='mx-3 text-sm sm:text-md cursor-pointer hover:border-yellow-400 hover:no-underline hover:font-semibold hover:border-b-2'>People</span></Link>
-                <Link href="/research"><span className='mx-3 text-sm sm:text-md cursor-pointer hover:border-yellow-400 hover:no-underline hover:font-semibold hover:border-b-2'>Academic Work</span></Link>
+                <Link href="/research"><span className='mx-3 text-sm sm:text-md cursor-pointer hover:border-yellow-400 hover:no-underline hover:font-semibold hover:border-b-2'>Research</span></Link>
                 <Link href="/contactus"><span className='bg-black text-white rounded-lg hover:bg-white hover:text-black p-2 border-2 border-black mx-3 cursor-pointer'>Contact</span></Link>
             </div>
 

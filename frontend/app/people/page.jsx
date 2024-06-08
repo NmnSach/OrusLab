@@ -35,6 +35,8 @@ const People = () => {
                         and human-animal conflict.
                     </p>
 
+                    <Link href='/about' className='text-md sm:text-lg font-semibold hover:underline hover:decoration-yellow-400'>Read More</Link>
+
                 </div>
 
             </div>

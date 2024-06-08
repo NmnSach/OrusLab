@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Timeline from '../components/Timeline'
 
 const About = () => {
     return (
@@ -37,6 +38,10 @@ const About = () => {
                 </div>
 
             </div>
+
+            <Timeline />
+
+
         </>
 
     )

@@ -1,36 +1,71 @@
 import React from 'react';
 import './timeline.css';
+import Image from 'next/image';
 
 const Timeline = () => {
     return (
-        <div className="timeline-container mt-20">
+        <div className="timeline-container mt-10 sm:mt-20">
 
             <ul>
-                <li className='hover:scale-105 transition-all duration-500 cursor-pointer shadow-md shadow-gray-400' style={{ "--accent-color": "#41516C" }}>
+                <li className='hover:scale-105 transition-all duration-500 cursor-pointer shadow-md shadow-gray-400' style={{ "--accent-color": "#000000" }}>
+
                     <div className="date">2002</div>
-                    <div className="title">Title 1</div>
-                    <div className="descr">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas itaque hic quibusdam fugiat est numquam harum, accusamus suscipit consequatur laboriosam!</div>
+                    <div className='flex justify-center items-center'>
+                        <Image
+                            src='/prof-1.jpg'
+                            height={100}
+                            width={400}
+                            alt='Dr. Ilyas'
+                        />
+                    </div>
+                    <div className="title">12th: Crosthwaite Girls Inter College, Allahabad</div>
+                    {/* <div ="descr">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas itaque hic quibusdam fugiat est numquam harum, accusamus suscipit consequatur laboriosam!</div> */}
                 </li>
-                <li className='hover:scale-105 transition-all duration-500 cursor-pointer shadow-md shadow-gray-400' style={{ "--accent-color": "#FBCA3E" }}>
+                <li className='hover:scale-105 transition-all duration-500 cursor-pointer shadow-md shadow-gray-400' style={{ "--accent-color": "#facc15" }}>
                     <div className="date">2007</div>
-                    <div className="title">Title 2</div>
-                    <div className="descr">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos adipisci nobis nostrum vero nihil veniam.</div>
+                    <div className='flex justify-center items-center'>
+                        <Image
+                            src='/prof-2.jpg'
+                            height={100}
+                            width={400}
+                            alt='Dr. Ilyas'
+                        />
+                    </div>
+                    <div className="title">B.Sc: EWING Christian College, Allahabad University, Allahabad</div>
+                    {/* <div className="descr">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos adipisci nobis nostrum vero nihil veniam.</div> */}
                 </li>
-                <li className='hover:scale-105 transition-all duration-500 cursor-pointer shadow-md shadow-gray-400' style={{ "--accent-color": "#E24A68" }}>
-                    <div className="date">2012</div>
-                    <div className="title">Title 3</div>
-                    <div className="descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga minima consequuntur soluta placeat iure totam commodi repellendus ea delectus, libero fugit quod reprehenderit, sequi quo, et dolorum saepe nulla hic.</div>
+                <li className='hover:scale-105 transition-all duration-500 cursor-pointer shadow-md shadow-gray-400' style={{ "--accent-color": "#000000" }}>
+                    <div className="date">1995</div>
+                    <div className='flex justify-center items-center'>
+                        <Image
+                            src='/prof-3.jpg'
+                            height={100}
+                            width={400}
+                            alt='Dr. Ilyas'
+                        />
+                    </div>
+                    <div className="title">M.Sc: Department of Wildlife Sciences, Aligarh Muslim University</div>
+                    {/* <div className="descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga minima consequuntur soluta placeat iure totam commodi repellendus ea delectus, libero fugit quod reprehenderit, sequi quo, et dolorum saepe nulla hic.</div> */}
                 </li>
-                <li className='hover:scale-105 transition-all duration-500 cursor-pointer shadow-md shadow-gray-400' style={{ "--accent-color": "#1B5F8C" }}>
-                    <div className="date">2017</div>
-                    <div className="title">Title 4</div>
-                    <div className="descr">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, cumque.</div>
+                <li className='hover:scale-105 transition-all duration-500 cursor-pointer shadow-md shadow-gray-400' style={{ "--accent-color": "#facc15" }}>
+                    <div className="date">2001</div>
+                    <div className='flex justify-center items-center'>
+                        <Image
+                            src='/prof-4.jpg'
+                            height={100}
+                            width={400}
+                            alt='Dr. Ilyas'
+                        />
+                    </div>
+                    <div className="title">P.hD: Department of Wildlife Sciences, Aligarh Muslim University</div>
+                    {/* <div className="descr">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, cumque.</div> */}
                 </li>
-                <li className='hover:scale-105 transition-all duration-500 cursor-pointer shadow-md shadow-gray-400' style={{ "--accent-color": "#4CADAD" }}>
+                {/* <li className='hover:scale-105 transition-all duration-500 cursor-pointer shadow-md shadow-gray-400' style={{ "--accent-color": "#000000" }}>
                     <div className="date">2022</div>
                     <div className="title">Title 5</div>
                     <div className="descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, non.</div>
-                </li>
+                </li> */}
+
             </ul>
         </div>
     )

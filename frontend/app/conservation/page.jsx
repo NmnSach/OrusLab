@@ -12,13 +12,11 @@ const Page = () => {
                 distribution, and ecological co-existence of sympatric species, providing crucial insights into 
                 their interactions and conservation needs. We investigate resource partitioning, habitat use, 
                 and niche overlap, which are essential for developing effective conservation strategies."
-
-                para2 = "Our work spans diverse ecosystems, including high-altitude regions of the Himalayas and 
+                para2="Our work spans diverse ecosystems, including high-altitude regions of the Himalayas and
                 various tiger reserves in Madhya Pradesh. We primarily conduct status, abundance, and 
                 density estimations through both direct and indirect evidence, such as encounter rates, 
                 pellet group sampling, and scat analysis. This comprehensive and multidisciplinary approach 
                 significantly contributes to understanding and conserving India's mammalian biodiversity."
-                
                 image2="/deer-new.jpg"
                 image3="/cheetah.jpg"
             />

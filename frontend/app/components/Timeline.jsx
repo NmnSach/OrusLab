@@ -15,7 +15,7 @@ const Timeline = () => {
             <ul>
                 <li className='hover:scale-105 transition-all duration-500 cursor-pointer shadow-md shadow-gray-400' style={{ "--accent-color": "#000000" }}>
 
-                    <div className="date">2002</div>
+                    <div className="date">1989</div>
                     <div className='flex justify-center items-center'>
                         <Image
                             src='/prof-1.jpg'
@@ -28,7 +28,7 @@ const Timeline = () => {
                     {/* <div ="descr">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas itaque hic quibusdam fugiat est numquam harum, accusamus suscipit consequatur laboriosam!</div> */}
                 </li>
                 <li className='hover:scale-105 transition-all duration-500 cursor-pointer shadow-md shadow-gray-400' style={{ "--accent-color": "#facc15" }}>
-                    <div className="date">2007</div>
+                    <div className="date">1992</div>
                     <div className='flex justify-center items-center'>
                         <Image
                             src='/prof-2.jpg'

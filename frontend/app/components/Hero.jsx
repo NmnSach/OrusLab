@@ -1,27 +1,14 @@
 import React from 'react'
 import Image from 'next/image'
 import Tile from './Tile'
+import Animation from './Animation'
 
 const Hero = () => {
     return (
-        <>
-            <div className='flex justify-center items-center'>
-                <div className='relative'>
-                    <Image
-                        className=''
-                        src="/deer-6.png"
-                        width={1400}
-                        height={700}
-                        alt="Hero Image"
-                    />
 
-                    {/* <div className='absolute inset-0 flex items-end justify-end p-5'>
-                        <h1 className='text-lg font-bold sm:text-5xl text-right text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]'>
-                            Observing Wildlife,<br /> Understanding Roles
-                        </h1>
-                    </div> */}
-                </div>
-            </div>
+        <>
+
+            <Animation />
 
             <div className='lg:m-20 md:m-10 sm:m-6'>
 

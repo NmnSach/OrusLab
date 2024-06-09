@@ -8,7 +8,7 @@ const Nav = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <div className='flex justify-between items-center border-b-[1px] border-gray-200 py-4 shadow-md'>
+        <div className='fixed top-0 left-0 right-0 z-50 flex justify-between items-center border-b-[1px] border-gray-200 py-4 shadow-md bg-white'>
             <div className='ml-4 sm:ml-10 font-bold text-xl sm:text-2xl cursor-pointer'>
                 <Link href="/">Orus Ilyas Lab</Link>
             </div>

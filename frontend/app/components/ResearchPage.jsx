@@ -1,9 +1,21 @@
+"use client";
+
 import Image from 'next/image'
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css';
 
 const ResearchPage = ({ imagepath, image2, image3, title, para1, para2 }) => {
+
+    useEffect(() => {
+        AOS.init({
+            duration: 1000,
+            once: false,
+        })
+    }, [])
+
     return (
-        <div className='flex flex-col justify-center items-center'>
+        <div className='flex flex-col justify-center items-center' data-aos="fade-up">
             <Image
                 src={imagepath}
                 width={1400}

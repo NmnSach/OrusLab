@@ -12,7 +12,7 @@ const Contact = () => {
                     <div className='flex flex-col justify-start items-start w-full'>
                         <h2 className=' text-2xl sm:text-5xl font-bold my-5 underline decoration-yellow-400'>About</h2>
                         <p className='text-[#828282] my-2 text-sm sm:text-lg w-full'>
-                            Send us your details and we'll be in touch with you shortly.
+                            Send us your details and we&apos;ll be in touch with you shortly.
                         </p>
                     </div>
                     <form className="space-y-4 w-full">

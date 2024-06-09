@@ -4,7 +4,13 @@ import Image from 'next/image';
 
 const Timeline = () => {
     return (
-        <div className="timeline-container mt-10 sm:mt-20">
+        <div className="timeline-container mt-10">
+
+
+            <div className='flex justify-center items-center mt-10'>
+                <h2 className=' text-2xl sm:text-3xl font-bold my-5 underline decoration-yellow-400'>Educational Qualifications</h2>
+            </div>
+
 
             <ul>
                 <li className='hover:scale-105 transition-all duration-500 cursor-pointer shadow-md shadow-gray-400' style={{ "--accent-color": "#000000" }}>

@@ -21,8 +21,8 @@ const People = () => {
                 <div className='w-3/5 sm:pl-20'>
                     <h2 className=' text-2xl sm:text-5xl font-bold my-5 underline decoration-yellow-400'>Dr. Orus Ilyas</h2>
                     <p className='text-[#828282] my-2 text-xs sm:text-lg w-full'>
-                        I am a <mark className='bg-yellow-200'>Professor in Biodiversity and Environmental Studies</mark> at the Department of Wildlife Sciences,
-                        Aligarh Muslim University. I have over <mark className='bg-green-200'>20 years </mark> of experience in field research on mammals,
+                        I am a Professor in Biodiversity and Environmental Studies at the Department of Wildlife Sciences,
+                        Aligarh Muslim University. I have over 20 years of experience in field research on mammals,
                         with a particular focus on ungulates in the high-altitude Himalayas. My work includes the
                         conservation of species like the Musk Deer and Himalayan Tahr.
                     </p>

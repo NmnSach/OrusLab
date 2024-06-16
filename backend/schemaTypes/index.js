@@ -1,3 +1,4 @@
-import blog from "./blog"
+import CompletedProject from "./CompletedProject"
+import CurrentProject from "./CurrentProject"
 
-export const schemaTypes = [blog]
+export const schemaTypes = [CurrentProject, CompletedProject]

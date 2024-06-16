@@ -1,11 +1,14 @@
 import React from 'react'
-import Mentorship from '../components/Mentorship'
+import CurrentProjects from '../components/CurrentProjects'
+import CompletedProjects from '../components/CompletedProjects'
 
 
 const Research = () => {
     return (
         <div className='mt-20'>
-            <Mentorship />
+            <CurrentProjects />
+
+            <CompletedProjects />
         </div>
     )
 }

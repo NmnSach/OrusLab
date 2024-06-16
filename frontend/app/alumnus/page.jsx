@@ -17,6 +17,33 @@ const page = () => {
                     movement ecology, urban wildlife, and the impact of linear infrastructure on wildlife 
                     ecology."
                 />
+
+                <People
+                    imagepath="/prof.jpg"
+                    name="Shaheer Khan"
+                    description="I completed my PhD on the movement ecology of Indian wolves in a 
+                    human dominated landscape. My primary interests lie in large carnivore ecology, 
+                    movement ecology, urban wildlife, and the impact of linear infrastructure on wildlife 
+                    ecology."
+                />
+
+                <People
+                    imagepath="/prof.jpg"
+                    name="Shaheer Khan"
+                    description="I completed my PhD on the movement ecology of Indian wolves in a 
+                    human dominated landscape. My primary interests lie in large carnivore ecology, 
+                    movement ecology, urban wildlife, and the impact of linear infrastructure on wildlife 
+                    ecology."
+                />
+
+                <People
+                    imagepath="/prof.jpg"
+                    name="Shaheer Khan"
+                    description="I completed my PhD on the movement ecology of Indian wolves in a 
+                    human dominated landscape. My primary interests lie in large carnivore ecology, 
+                    movement ecology, urban wildlife, and the impact of linear infrastructure on wildlife 
+                    ecology."
+                />
             </div>
         </div>
     )

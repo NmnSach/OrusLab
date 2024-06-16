@@ -3,7 +3,7 @@ import React from 'react'
 
 const People = ({ imagepath, name, description }) => {
     return (
-        <div className='flex '>
+        <div className='flex mt-5'>
 
             <Image
                 src={imagepath}

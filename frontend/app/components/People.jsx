@@ -1,25 +1,35 @@
+"use client";
+
 import Image from 'next/image'
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const People = ({ imagepath, name, description }) => {
+
+    useEffect(() => {
+        AOS.init({
+            duration: 1000,
+            once: false,
+        })
+    }, [])
+
     return (
-        <div className='flex mt-5'>
-
-            <Image
-                src={imagepath}
-                width={250}
-                height={250}
-                alt='person-image'
-                className='rounded-full'
-            />
-
-            <div className='flex justify-center items-start flex-col ml-10'>
-
-                <h1 className='text-2xl font-bold'>{name}</h1>
-                <p>{description}</p>
-
+        <div className='flex mt-5' data-aos="fade-up">
+            <div className='w-64 h-64'>
+                <Image
+                    src={imagepath}
+                    width={250}
+                    height={250}
+                    alt='person-image'
+                    className='object-cover w-full h-full rounded-xl'
+                />
             </div>
 
+            <div className='flex justify-start items-start flex-col ml-5 w-[310px] '>
+                <h1 className='text-2xl font-bold underline decoration-yellow-400'>{name}</h1>
+                <p className='text-xs text-justify mt-2 border-l-2 border-gray-300 pl-3'>{description}</p>
+            </div>
         </div>
     )
 }

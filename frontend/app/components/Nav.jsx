@@ -14,7 +14,7 @@ const Nav = () => {
             </div>
 
             <div className='hidden sm:flex mr-10'>
-                <Link href="/about"><span className='mx-3 text-sm sm:text-md cursor-pointer hover:border-yellow-400 hover:no-underline hover:font-semibold hover:border-b-2'>About</span></Link>
+                <Link href="/"><span className='mx-3 text-sm sm:text-md cursor-pointer hover:border-yellow-400 hover:no-underline hover:font-semibold hover:border-b-2'>Home</span></Link>
                 <Link href="/people"><span className='mx-3 text-sm sm:text-md cursor-pointer hover:border-yellow-400 hover:no-underline hover:font-semibold hover:border-b-2'>People</span></Link>
                 <Link href="/research"><span className='mx-3 text-sm sm:text-md cursor-pointer hover:border-yellow-400 hover:no-underline hover:font-semibold hover:border-b-2'>Research</span></Link>
                 <Link href="/contactus"><span className='bg-black text-white rounded-lg hover:bg-white hover:text-black p-2 border-2 border-black mx-3 cursor-pointer'>Contact</span></Link>

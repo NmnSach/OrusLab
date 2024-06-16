@@ -22,7 +22,11 @@ const CurrentProjects = () => {
     }, []);
 
     return (
-        <div className="container mx-auto">
+        <div className="flex flex-col justify-center items-center container mx-auto mt-10">
+            <div>
+                <h1 className='text-2xl sm:text-4xl font-bold my-5 underline decoration-yellow-400'>Current Projects</h1>
+            </div>
+
             <div className="justify-center items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 {projects.map((project) => (
                     <Card

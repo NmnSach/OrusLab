@@ -1,3 +1,5 @@
+"use client";
+
 // PublishedBooksAuthored.js
 import React, { useEffect, useState } from 'react';
 import client from './sanityClient';

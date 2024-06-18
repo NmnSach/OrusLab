@@ -27,7 +27,7 @@ export default defineType({
         select: {
             title: 'title',
             subtitle: 'subtitle',
-            media: 'image',
+
         },
     },
 })

@@ -2,7 +2,7 @@
 
 // PublishedBooksAuthored.js
 import React, { useEffect, useState } from 'react';
-import client from './sanityClient';
+import { client } from '../client';
 
 const PublishedBooksEdited = () => {
     const [books, setBooks] = useState([]);

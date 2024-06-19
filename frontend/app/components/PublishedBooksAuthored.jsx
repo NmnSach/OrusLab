@@ -2,7 +2,7 @@
 
 // PublishedBooksAuthored.js
 import React, { useEffect, useState } from 'react';
-import client from './sanityClient';
+import { client } from '../client';
 
 const PublishedBooksAuthored = () => {
     const [books, setBooks] = useState([]);
@@ -10,12 +10,12 @@ const PublishedBooksAuthored = () => {
     useEffect(() => {
         const fetchBooks = async () => {
             const data = await client.fetch(`
-        *[_type == "publishedBooksAuthored"]{
-          title,
-          year,
-          author
-        }
-      `);
+                *[_type == "publishedBooksAuthored"]{
+                    title,
+                    year,
+                    author
+                }
+            `);
             setBooks(data);
         };
 
@@ -23,19 +23,23 @@ const PublishedBooksAuthored = () => {
     }, []);
 
     return (
-        <div>
-            {books.length ? (
-                books.map((book, index) => (
-                    <div key={index}>
-                        <p>
-                            {book.author} ({book.year}), {book.title}. ISBN 9781032342986,
-                            Published November 30, {book.year}, by Tailor and Francis- Routledge (Earthscan).
-                        </p>
-                    </div>
-                ))
-            ) : (
-                <p>Loading...</p>
-            )}
+        <div className='flex justify-center items-center w-full'>
+            <div className="flex flex-col justify-center items-start w-10/12 p-4">
+                {books.length ? (
+                    books.map((book, index) => (
+                        <div key={index} className="mb-4">
+                            <li className="text-lg ml-0">
+                                {book.title} -
+                                <span className="font-semibold text-blue-500">{book.author}</span>
+                                <span className="font-semibold text-blue-500"> ({book.year})</span>
+
+                            </li>
+                        </div>
+                    ))
+                ) : (
+                    <p>Loading...</p>
+                )}
+            </div>
         </div>
     );
 };

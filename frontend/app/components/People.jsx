@@ -15,7 +15,7 @@ const People = ({ imagepath, name, description }) => {
     }, [])
 
     return (
-        <div className='flex mt-5' data-aos="fade-up">
+        <div className='sm:flex mt-10' data-aos="fade-up">
             <div className='w-64 h-64'>
                 <Image
                     src={imagepath}
@@ -26,7 +26,7 @@ const People = ({ imagepath, name, description }) => {
                 />
             </div>
 
-            <div className='flex justify-start items-start flex-col ml-5 w-[310px] '>
+            <div className='flex justify-start items-start flex-col mt-2 sm:ml-5 w-[250px] sm:w-[310px] '>
                 <h1 className='text-2xl font-bold underline decoration-yellow-400'>{name}</h1>
                 <p className='text-xs text-justify mt-2 border-l-2 border-gray-300 pl-3'>{description}</p>
             </div>

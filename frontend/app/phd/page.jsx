@@ -9,7 +9,7 @@ const page = () => {
             </div>
 
             <div className='w-11/12'>
-                <div className='flex justify-between items-center mt-10'>
+                <div className='flex flex-col sm:flex-row justify-between items-center sm:mt-10'>
                     <People
                         imagepath="/Shahzada.jpg"
                         name="Shahzada Iqbal"
@@ -34,7 +34,7 @@ const page = () => {
 
                 </div>
 
-                <div className='flex justify-between items-center mt-10'>
+                <div className='flex flex-col sm:flex-row justify-between items-center mt-10'>
                     <People
                         imagepath="/Sneha.jpeg"
                         name="Sneha Singh"
@@ -59,7 +59,7 @@ const page = () => {
 
 
 
-                <div className='flex justify-between items-center mt-10'>
+                <div className='flex flex-col sm:flex-row justify-between items-center mt-10'>
 
                     <People
                         imagepath="/Mohsin.jpeg"

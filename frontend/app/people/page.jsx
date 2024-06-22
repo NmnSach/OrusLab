@@ -5,7 +5,7 @@ import Link from 'next/link'
 const People = () => {
     return (
         <>
-            <div className='flex flex-col sm:flex-row justify-center items-center sm:mt-28 sm:mx-20'>
+            <div className='flex flex-col sm:flex-row justify-center items-center mt-20 sm:mt-28 sm:mx-20'>
 
                 <div className='w-2/5 flex justify-center items-center mt-5 sm:mt-0'>
                     <Image

@@ -28,17 +28,17 @@ const Nav = () => {
 
             {isMenuOpen && (
                 <div className='fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50'>
-                    <div className='relative bg-white border-2 border-black rounded-lg shadow-lg p-5'>
+                    <div className='relative bg-white border-2 border-black rounded-lg shadow-lg p-14'>
                         <button
                             className='absolute top-0 right-0 m-4 text-black text-lg'
                             onClick={() => setIsMenuOpen(false)}
                         >
                             &times;
                         </button>
-                        <div className='flex flex-col justify-center items-center'>
-                            <Link href="/about"><span className='block my-5 mx-5 mb-3 text-lg cursor-pointer font-semibold border-b-[1px] border-yellow-400'>About</span></Link>
+                        <div className='flex flex-col justify-center items-start'>
+                            <Link href="/"><span className='block my-5 mx-5 mb-3 text-lg cursor-pointer font-semibold border-b-[1px] border-yellow-400'>Home</span></Link>
                             <Link href="/people"><span className='block my-5 mx-5 mb-3 text-lg cursor-pointer font-semibold border-b-[1px] border-yellow-400'>People</span></Link>
-                            <Link href="/research"><span className='block my-5 mx-5 mb-3 text-lg cursor-pointer font-semibold border-b-[1px] border-yellow-400'>Academic Work</span></Link>
+                            <Link href="/research"><span className='block my-5 mx-5 mb-3 text-lg cursor-pointer font-semibold border-b-[1px] border-yellow-400'>Research</span></Link>
                             <Link href="/contactus"><span className='block my-5 mx-5 mb-3 text-lg cursor-pointer font-semibold border-b-[1px] border-yellow-400'>Contact</span></Link>
                         </div>
                     </div>

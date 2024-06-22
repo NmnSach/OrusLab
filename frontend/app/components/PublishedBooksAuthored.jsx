@@ -11,9 +11,7 @@ const PublishedBooksAuthored = () => {
         const fetchBooks = async () => {
             const data = await client.fetch(`
                 *[_type == "publishedBooksAuthored"]{
-                    title,
-                    year,
-                    author
+                    title
                 }
             `);
             setBooks(data);
@@ -29,10 +27,9 @@ const PublishedBooksAuthored = () => {
                     books.map((book, index) => (
                         <div key={index} className="mb-4">
                             <li className="text-lg ml-0">
-                                {book.title} -
-                                <span className="font-semibold text-blue-500">{book.author}</span>
-                                <span className="font-semibold text-blue-500"> ({book.year})</span>
-
+                                {book.title}
+                                {/* <span className="font-semibold text-blue-500">{book.author}</span>
+                                <span className="font-semibold text-blue-500"> ({book.year})</span> */}
                             </li>
                         </div>
                     ))

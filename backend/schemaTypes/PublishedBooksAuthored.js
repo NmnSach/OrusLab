@@ -10,23 +10,23 @@ export default defineType({
             title: 'Title',
             type: 'string',
         }),
-        defineField({
-            name: 'year',
-            title: 'Year',
-            type: 'number',
-        }),
-        defineField({
-            name: 'author',
-            title: 'Author',
-            type: 'text',
-        }),
+        // defineField({
+        //     name: 'year',
+        //     title: 'Year',
+        //     type: 'number',
+        // }),
+        // defineField({
+        //     name: 'author',
+        //     title: 'Author',
+        //     type: 'text',
+        // }),
 
     ],
 
     preview: {
         select: {
             title: 'title',
-            subtitle: 'subtitle',
+            // subtitle: 'subtitle',
         },
     },
 })

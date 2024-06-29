@@ -5,7 +5,7 @@ const Page = () => {
     return (
         <div>
             <ResearchPage
-                imagepath='/jackal.JPG'
+                imagepath='/Conservation-header.jpg'
 
                 title="Understanding Human Aspect in Conservation"
 
@@ -30,8 +30,8 @@ const Page = () => {
                 sustainable conservation strategies. This holistic approach underscores the critical 
                 role of understanding human dimensions in wildlife conservation."
 
-                image2="/deer-new.jpg"
-                image3="/cheetah.jpg"
+                image2="/Conservation-1.jpg"
+                image3="/Conservation-2.jpg"
             />
         </div>
     )

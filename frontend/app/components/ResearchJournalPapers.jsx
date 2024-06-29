@@ -25,7 +25,7 @@ const ResearchJournalPapers = () => {
     return (
         <div className='flex flex-col justify-center items-center w-full mt-20'>
             <div>
-                <h1 className='text-2xl sm:text-4xl font-bold my-5 underline decoration-yellow-400'>Research Journal Papers</h1>
+                <h1 className='text-2xl sm:text-4xl font-bold my-5 underline decoration-yellow-400'>Published Papers</h1>
             </div>
             <div className="flex flex-col justify-center items-start w-10/12 p-4">
                 {books.length ? (

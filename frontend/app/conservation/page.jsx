@@ -17,8 +17,8 @@ const Page = () => {
                 density estimations through both direct and indirect evidence, such as encounter rates, 
                 pellet group sampling, and scat analysis. This comprehensive and multidisciplinary approach 
                 significantly contributes to understanding and conserving India's mammalian biodiversity."
-                image2="/deer-new.jpg"
-                image3="/cheetah.jpg"
+                image2="/bengaltiger.jpg"
+                image3="/zebra.jpg"
             />
         </div>
     )

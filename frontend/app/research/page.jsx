@@ -11,9 +11,9 @@ const Research = () => {
         <div className='mt-20'>
             <CurrentProjects />
             <CompletedProjects />
-            <ResearchJournalPapers />
             <PublishedBooksAuthored />
             <PublishedBooksEdited />
+            <ResearchJournalPapers />
         </div>
     )
 }

@@ -3,9 +3,9 @@ import ResearchPage from '../components/ResearchPage'
 
 const Page = () => {
     return (
-        <div>
+        <div className='mt-14'>
             <ResearchPage
-                imagepath='/jackal.JPG'
+                imagepath='/lioncouple2.jpg'
 
                 title="Feeding Ecology"
                 para1="We have conducted extensive research on the feeding ecology of various mammals, 
@@ -22,8 +22,8 @@ const Page = () => {
                 significantly contributing to the sustainable management and conservation of mammalian 
                 biodiversity."
 
-                image2="/deer-new.jpg"
-                image3="/cheetah.jpg"
+                image2="/ecology-1.jpg"
+                image3="/ecology-2.jpg"
             />
         </div>
     )

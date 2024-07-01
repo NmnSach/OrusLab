@@ -9,7 +9,7 @@ const CurrentProjects = () => {
 
     useEffect(() => {
         const fetchProjects = async () => {
-            const query = `*[_type == "currentProjects"]`;
+            const query = `*[_type == "currentProjects"] | order(_createdAt asc)`;
             try {
                 const result = await client.fetch(query);
                 setProjects(result);
@@ -20,6 +20,7 @@ const CurrentProjects = () => {
 
         fetchProjects();
     }, []);
+
 
     return (
         <div className="flex flex-col justify-center items-center container mx-auto mt-10">

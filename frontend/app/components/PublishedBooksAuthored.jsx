@@ -10,7 +10,7 @@ const PublishedBooksAuthored = () => {
     useEffect(() => {
         const fetchBooks = async () => {
             const data = await client.fetch(`
-                *[_type == "publishedBooksAuthored"]{
+                *[_type == "publishedBooksAuthored"] | order(_createdAt asc){
                     title
                 }
             `);

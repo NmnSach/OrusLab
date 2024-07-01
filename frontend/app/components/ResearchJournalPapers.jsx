@@ -10,7 +10,7 @@ const ResearchJournalPapers = () => {
     useEffect(() => {
         const fetchBooks = async () => {
             const data = await client.fetch(`
-        *[_type == "researchJournalPapers"]{
+        *[_type == "researchJournalPapers"] | order(_createdAt asc){
           title,
           year,
           author

@@ -9,7 +9,7 @@ const CompletedProjects = () => {
 
     useEffect(() => {
         const fetchProjects = async () => {
-            const query = `*[_type == "completedProjects"]`;
+            const query = `*[_type == "completedProjects"] | order(_createdAt asc)`;
             try {
                 const result = await client.fetch(query);
                 setProjects(result);
